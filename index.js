@@ -12,11 +12,11 @@
        tSound.pause();
        tSound.currentTime = 1 ; 
      }
- 
+    
      
      switch (index) {
          case 0:
-         tSound = new Audio("./sounds.animals/cat.mp3");
+         tSound = new Audio("./sounds.animals/cat2.mp3");
              break;
          case 1:
           document.getElementById("nam1").innerHTML="cat"
