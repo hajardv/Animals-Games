@@ -110,5 +110,31 @@ box-shadow: 0 5px 10px darken(rgba(#7C7DBE,.33),10%), 0 10px 40px darken(rgba(#7
   opacity: .66;
   animation: rotateTo 0.33s ease-in-out forwards;
 }
+}}
+
+h3{font-family: Rockwell Extra Bold;}
+#nam1{
+text-shadow: 2px 2px 4px rgb(213, 47, 32);
+
 }
+#nam2{
+  text-shadow: 4px 2px 4px rgba(157, 84, 76, 0.845);
 }
+#nam3{
+  text-shadow: 4px 2px 4px gray;
+  color: #5d133e;
+}
+#nam4{
+  text-shadow: 2px 2px 4px rgba(24, 28, 155, 0.972);
+ 
+}
+#nam5{
+  text-shadow: 2px 2px 4px rgba(222, 219, 51, 0.972);
+ 
+}
+#nam6{
+  text-shadow: 2px 2px 4px rgba(9, 186, 18, 0.972);
+ 
+}
+
+
