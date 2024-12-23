@@ -7,7 +7,6 @@
  
  
  function play(index) {
-    
      if (tSound) {
        tSound.pause();
        tSound.currentTime = 1 ; 
@@ -73,3 +72,46 @@
  for (let i = 0; i < ply.length; i++) {
      ply[i].addEventListener("click",    () => play(i))
  }
+ document.addEventListener("keypress", (key)=>{func(key.key)});
+
+ function func(son) {
+    if (tSound) {
+      tSound.pause();
+      tSound.currentTime = 1 ; 
+    }
+    
+    
+    switch (son) {
+        case "c":
+        tSound = new Audio("./sounds.animals/cat2.mp3");
+            break;
+       
+              
+        case "d":
+        tSound = new Audio("./sounds.animals/dog.mp3");
+            break;
+            
+        case "e":
+        tSound = new Audio("./sounds.animals/elephant.mp3");
+            break;
+            
+            case "m":
+        tSound = new Audio("./sounds.animals/monkey.mp3");
+            break;
+           
+            case"h":
+        tSound = new Audio("./sounds.animals/hourse.mp3");
+            break;
+            
+            case "k":
+        tSound = new Audio("./sounds.animals/donkey.mp3");
+        break;
+            
+        default:
+            return; 
+    }
+
+    
+    tSound.play();
+}
+ 
