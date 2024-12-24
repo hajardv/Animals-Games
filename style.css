@@ -23,8 +23,6 @@ align-items: stretch;
 flex-wrap: wrap;
 justify-content: center;
 height: 150px;
-
-
 }
 .mere>div{
 margin:30px;
@@ -83,7 +81,7 @@ opacity: 1;
 background: 
 conic-gradient(
   from var(--start-angle) at 50% 50%,
-  $shimmer 0%,
+  shimmer 0%,
   #FFFFFF00 5%,
   #FFFFFF00 20%,
   lighten($shimmer,8%) 25%,
